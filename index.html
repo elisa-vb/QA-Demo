@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QA Demo Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <h1>Star Catcher</h1>
+      <p class="instructions">Use the arrow keys or A and D to move the platform and catch the falling stars.</p>
+      <div class="hud">
+        <span id="score">Score: 0</span>
+        <span id="lives">Lives: 3</span>
+        <button id="restartBtn" type="button">Restart</button>
+      </div>
+      <canvas id="gameCanvas" width="480" height="640"></canvas>
+      <p id="status">Catch stars to score points. Avoid letting them hit the ground.</p>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
